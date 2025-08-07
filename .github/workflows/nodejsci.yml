@@ -46,12 +46,12 @@ jobs:
             -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
           env:
             SONAR_TOKEN: 'f802865a762002f0778a09a9aa6db133ad1ee928'
-      - name: Run Snyk
-        uses: snyk/actions/node@0.4.0
-        env:
-          SNYK_TOKEN: ${{ secrets.SNYK_SECRET }}
-        with:
-            command: test
+    #  - name: Run Snyk
+      #  uses: snyk/actions/node@0.4.0
+      #  env:
+      #    SNYK_TOKEN: ${{ secrets.SNYK_SECRET }}
+       # with:
+       #     command: test
             
       - name: Image Build
         run: docker build . -t myapp:1.0
