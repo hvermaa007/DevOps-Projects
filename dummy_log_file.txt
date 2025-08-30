@@ -1,0 +1,78 @@
+[2025-08-29 22:00:01] INFO     - Server started on port 8080
+[2025-08-29 22:00:02] INFO     - Database connection established
+[2025-08-29 22:00:03] DEBUG    - Cache initialized: 256MB
+[2025-08-29 22:00:04] INFO     - GET /api/status - 200 OK
+[2025-08-29 22:00:05] INFO     - User login: user_id=harshit_92
+[2025-08-29 22:00:06] DEBUG    - Session token generated: abc123xyz
+[2025-08-29 22:00:07] INFO     - GET /api/products - 200 OK
+[2025-08-29 22:00:08] WARN     - Slow response: /api/products (response_time=1100ms)
+[2025-08-29 22:00:09] INFO     - POST /api/cart/add - 201 Created
+[2025-08-29 22:00:10] DEBUG    - Cart updated: user_id=harshit_92, item_id=SKU12345
+[2025-08-29 22:00:11] INFO     - GET /api/cart - 200 OK
+[2025-08-29 22:00:12] ERROR    - Payment gateway timeout
+[2025-08-29 22:00:13] INFO     - Retrying payment: attempt=2
+[2025-08-29 22:00:14] INFO     - Payment successful: txn_id=TXN7890
+[2025-08-29 22:00:15] DEBUG    - Email confirmation sent to harshit@example.com
+[2025-08-29 22:00:16] INFO     - GET /api/orders - 200 OK
+[2025-08-29 22:00:17] INFO     - User logout: user_id=harshit_92
+[2025-08-29 22:00:18] INFO     - GET /api/status - 200 OK
+[2025-08-29 22:00:19] DEBUG    - Health check passed
+[2025-08-29 22:00:20] INFO     - Server load: 35%
+[2025-08-29 22:00:21] INFO     - GET /api/products - 200 OK
+[2025-08-29 22:00:22] WARN     - High memory usage: 85%
+[2025-08-29 22:00:23] DEBUG    - Memory cleanup triggered
+[2025-08-29 22:00:24] INFO     - Cleanup completed
+[2025-08-29 22:00:25] INFO     - GET /api/users - 200 OK
+[2025-08-29 22:00:26] DEBUG    - User profile loaded: user_id=alex_77
+[2025-08-29 22:00:27] INFO     - POST /api/cart/add - 201 Created
+[2025-08-29 22:00:28] INFO     - GET /api/cart - 200 OK
+[2025-08-29 22:00:29] ERROR    - Image load failed: /assets/item.png
+[2025-08-29 22:00:30] WARN     - Missing alt text for image
+[2025-08-29 22:00:31] INFO     - GET /api/help - 200 OK
+[2025-08-29 22:00:32] DEBUG    - Help articles loaded: count=12
+[2025-08-29 22:00:33] INFO     - POST /api/feedback - 202 Accepted
+[2025-08-29 22:00:34] INFO     - Feedback stored: feedback_id=FB123
+[2025-08-29 22:00:35] INFO     - GET /api/status - 200 OK
+[2025-08-29 22:00:36] DEBUG    - Status check: uptime=3600s
+[2025-08-29 22:00:37] INFO     - GET /api/products - 200 OK
+[2025-08-29 22:00:38] INFO     - GET /api/cart - 200 OK
+[2025-08-29 22:00:39] INFO     - POST /api/cart/remove - 200 OK
+[2025-08-29 22:00:40] DEBUG    - Cart updated: item removed SKU12345
+[2025-08-29 22:00:41] INFO     - GET /api/orders - 200 OK
+[2025-08-29 22:00:42] INFO     - GET /api/users - 200 OK
+[2025-08-29 22:00:43] DEBUG    - User profile loaded: user_id=emma_88
+[2025-08-29 22:00:44] INFO     - POST /api/cart/add - 201 Created
+[2025-08-29 22:00:45] INFO     - GET /api/cart - 200 OK
+[2025-08-29 22:00:46] ERROR    - Payment declined: card_expired
+[2025-08-29 22:00:47] WARN     - User notified of payment issue
+[2025-08-29 22:00:48] INFO     - GET /api/help - 200 OK
+[2025-08-29 22:00:49] DEBUG    - Help articles loaded: count=12
+[2025-08-29 22:00:50] INFO     - POST /api/feedback - 202 Accepted
+[2025-08-29 22:00:51] INFO     - Feedback stored: feedback_id=FB124
+[2025-08-29 22:00:52] INFO     - GET /api/status - 200 OK
+[2025-08-29 22:00:53] DEBUG    - Status check: uptime=3650s
+[2025-08-29 22:00:54] INFO     - GET /api/products - 200 OK
+[2025-08-29 22:00:55] INFO     - GET /api/cart - 200 OK
+[2025-08-29 22:00:56] INFO     - POST /api/cart/remove - 200 OK
+[2025-08-29 22:00:57] DEBUG    - Cart updated: item removed SKU67890
+[2025-08-29 22:00:58] INFO     - GET /api/orders - 200 OK
+[2025-08-29 22:00:59] INFO     - GET /api/users - 200 OK
+[2025-08-29 22:01:00] DEBUG    - User profile loaded: user_id=liam_55
+[2025-08-29 22:01:01] INFO     - POST /api/cart/add - 201 Created
+[2025-08-29 22:01:02] INFO     - GET /api/cart - 200 OK
+[2025-08-29 22:01:03] ERROR    - Payment gateway timeout
+[2025-08-29 22:01:04] INFO     - Retrying payment: attempt=2
+[2025-08-29 22:01:05] INFO     - Payment successful: txn_id=TXN7891
+[2025-08-29 22:01:06] DEBUG    - Email confirmation sent to liam@example.com
+[2025-08-29 22:01:07] INFO     - GET /api/orders - 200 OK
+[2025-08-29 22:01:08] INFO     - User logout: user_id=liam_55
+[2025-08-29 22:01:09] INFO     - GET /api/status - 200 OK
+[2025-08-29 22:01:10] DEBUG    - Health check passed
+[2025-08-29 22:01:11] INFO     - Server load: 40%
+[2025-08-29 22:01:12] INFO     - GET /api/products - 200 OK
+[2025-08-29 22:01:13] WARN     - High memory usage: 90%
+[2025-08-29 22:01:14] DEBUG    - Memory cleanup triggered
+[2025-08-29 22:01:15] INFO     - Cleanup completed
+[2025-08-29 22:01:16] INFO     - GET /api/users - 200 OK
+[2025-08-29 22:01:17] DEBUG    - User profile loaded: user_id=zoe_33
+[2025-08-29 22:01:18] INFO     - POST /api/cart
